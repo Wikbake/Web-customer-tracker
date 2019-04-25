@@ -7,3 +7,5 @@ This application is created in Eclipse and is using:
 - MySQL. 
 
 This application allows us to create, remove, update and delete customers from our database. 
+
+(Still in progress)
