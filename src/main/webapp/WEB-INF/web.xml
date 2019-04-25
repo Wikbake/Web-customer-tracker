@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>TestDbServlet</servlet-name>
+  	<display-name>TestDbServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.github.wikbake.testdb.TestDbServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TestDbServletClass</servlet-name>
+  	<display-name>TestDbServletClass</display-name>
+  	<description></description>
+  	<servlet-class>com.github.wikbake.testdb.TestDbServletClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TestDbServlet</servlet-name>
+  	<url-pattern>/TestDbServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TestDbServletClass</servlet-name>
+  	<url-pattern>/TestDbServletClass</url-pattern>
+  </servlet-mapping>
+</web-app>
