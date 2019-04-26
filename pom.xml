@@ -55,7 +55,7 @@
 		<dependency>
 			<groupId>com.mchange</groupId>
 			<artifactId>c3p0</artifactId>
-			<version>0.9.5.2</version>
+			<version>${c3po.version}</version>
 		</dependency>
 
 		<!-- Servlet+JSP+JSTL -->
