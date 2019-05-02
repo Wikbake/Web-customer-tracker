@@ -40,7 +40,7 @@ public class DemoAppConfig implements WebMvcConfigurer {
 	private Environment env;
 	
 	private Logger logger = Logger.getLogger(getClass().getName());
-	
+		
 	// define a bean for ViewResolver <--- similar to stuff from XML file 
 	@Bean
 	public ViewResolver viewResolver() {
@@ -52,6 +52,7 @@ public class DemoAppConfig implements WebMvcConfigurer {
 		
 		return viewResolver;
 	}
+
 	
 	/*
 	 * This code reads env to get the data and use it to set up configs for JDBC and connection pooling.

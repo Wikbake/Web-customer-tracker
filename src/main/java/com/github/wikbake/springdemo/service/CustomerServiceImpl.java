@@ -13,7 +13,6 @@ import com.github.wikbake.springdemo.entity.Customer;
 public class CustomerServiceImpl implements CustomerService {
 
 	// need to inject customer DAO
-	
 	@Autowired
 	private CustomerDAO customerDAO;
 	
